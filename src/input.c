@@ -47,10 +47,7 @@ void process_input(){
 		    case SDLK_c:
 			TETROMINO_ACTION = HOLD;
 			break;
-		
-		    case SDLK_r:
-			TETROMINO_ACTION = RESTART;
-
+			
 		    default:
 			break;
 	    }
